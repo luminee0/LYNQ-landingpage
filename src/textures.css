@@ -1,0 +1,18 @@
+.custom-cursor {
+  cursor: url('/assets/cursor-glow.svg'), auto;
+}
+
+.bg-texture {
+  background-image: url('/assets/textured-dark-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-grid {
+  background-image: 
+    linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center;
+}
